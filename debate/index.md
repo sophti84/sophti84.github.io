@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: homepage
 title: Debate
 permalink: /debate/
 ---
