@@ -1,5 +1,9 @@
 ---
-layout: homepage
+layout: home
+title: Debate
+permalink: /debate/
 ---
 
-hello
+## About Me
+
+Hi!
