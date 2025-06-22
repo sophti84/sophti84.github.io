@@ -1,5 +1,5 @@
 ---
-layout: index_page
+layout: subpage
 title: Debate
 permalink: /debate/
 ---
