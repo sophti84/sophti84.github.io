@@ -3,21 +3,6 @@
   <head>
     <title>{{ site.title }}</title>
 
-    <!-- open graph (facebook, imessage, etc.) -->
-    <meta property="og:title" content="{{ site.title }}">
-    <meta property="og:description" content="{{ site.description }}">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site.url | default: site.github.url }}">
-    <meta property="og:image" content="{{ '/assets/img/social-preview.png' | relative_url }}">
-    <meta property="og:image:width" content="400">
-    <meta property="og:image:height" content="400">
-    
-    <!-- twitter card (small preview) -->
-    <meta name="twitter:card" content="summary"> <!-- not summary_large_image -->
-    <meta name="twitter:title" content="{{ site.title }}">
-    <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image" content="{{ '/assets/img/social-preview.png' | relative_url }}">
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -49,6 +34,18 @@
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
 
+    <style>
+    .wrapper {
+      max-width: 700px;
+      margin: 3rem auto 0 auto;
+      padding: 0 2rem;
+    }
+  
+    section {
+      padding-top: 0.5rem;
+    }
+  </style>
+    
   </head>
   <body>
     <div class="wrapper">
