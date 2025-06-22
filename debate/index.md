@@ -1,12 +1,17 @@
 ---
-layout: page
+layout: index_page
 title: Debate
+permalink: /debate/
 ---
+
+# big test
+
+asdfasd
 
 ## Debate
 
-Welcome! This page contains resources related to my speech and debate experience.
+test test test pleaseee work
 
-- [CircuitDebater](https://ld.circuitdebater.org/w/index.php/Prospect_ST_(Sophia_Tian))
-- [Women in Debate](https://www.windebate.org/)
-- [Harker School](https://www.harker.org/)
+### subpage test
+
+dasfdsf

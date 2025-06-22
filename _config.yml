@@ -20,9 +20,9 @@ twitter: https://x.com/sophti84
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/compressed-headshot.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/dark-favicon.png
+avatar: /assets/img/compressed-headshot.png
+favicon: /assets/img/favicon.png
+favicon_dark: /assets/img/dark-favicon.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."

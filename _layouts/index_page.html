@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <title>{{ site.title }}</title>
+
+    <!-- open graph, twitter card, meta tags omitted for brevity -->
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ site.description }}" />
+
+    {% if site.font == "Sans Serif" %}
+    <link rel="stylesheet" href="{{ '/assets/css/font_sans_serif.css' | relative_url }}">
+    {% else %}
+    <link rel="stylesheet" href="{{ '/assets/css/font.css' | relative_url }}">
+    {% endif %}
+
+    {% if site.auto_dark_mode %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
+    {% else %}
+    <link rel="stylesheet" href="{{ '/assets/css/style-no-dark-mode.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/publications-no-dark-mode.css' | relative_url }}">
+    {% endif %}
+
+    <style>
+      /* Main wrapper uses flex for sidebar + content */
+      .wrapper {
+        display: flex;
+        gap: 2rem;
+        padding: 3rem 2.5rem 0 2.5rem; /* increased top padding and left/right like homepage */
+        max-width: 940px; /* match homepage max-width */
+        margin: 0 auto; /* center page */
+      }
+
+      /* Sidebar container styled like original avatar sidebar */
+      aside#toc {
+        flex: 0 0 200px;
+        position: sticky;
+        top: 3rem; /* match top padding */
+        align-self: flex-start;
+        background-color: var(--color-background, #f9f9f9);
+        border: 1px solid var(--color-border, #ddd);
+        padding: 1rem 1.25rem; /* slightly more horizontal padding */
+        font-size: 0.95rem;
+        line-height: 1.4;
+        max-height: calc(100vh - 6rem); /* accommodate top padding */
+        overflow-y: auto;
+        border-radius: 8px; /* subtle rounding like homepage */
+      }
+
+      aside#toc h2 {
+        margin-top: 0;
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      aside#toc ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+      }
+
+      aside#toc ul li {
+        margin: 0.25rem 0;
+      }
+
+      /* indentation classes for TOC items */
+      .indent-1 { margin-left: 10px; }
+      .indent-2 { margin-left: 20px; }
+      .indent-3 { margin-left: 30px; }
+      .indent-4 { margin-left: 40px; }
+      .indent-5 { margin-left: 50px; }
+
+      /* Main content area */
+      section {
+        flex: 1;
+        max-width: 660px; /* same as homepage content width */
+        padding-top: 0.2rem; /* small top padding for alignment */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside id="toc">
+        <h2>Table of Contents</h2>
+        <ul>
+          {% assign headers = content | split: '\n' %}
+          {% for line in headers %}
+            {% if line contains '#' %}
+              {% assign header_text = line | replace: '#', '' | strip %}
+              {% assign header_level = line | replace: header_text, '' | replace: ' ', '' | size %}
+              {% assign header_id = header_text | downcase | replace: ' ', '-' %}
+              <li class="indent-{{ header_level }}">
+                <a href="#{{ header_id }}">{{ header_text }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </aside>
+
+      <section>
+        {{ content }}
+      </section>
+    </div>
+
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  </body>
+</html>
