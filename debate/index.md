@@ -34,7 +34,7 @@ Feel free to contact me with any questions at sophti84 [at] upenn.edu!
 
 I have included below all of the positions that I read and cut myself. Policy positions read between 2022-2024 were likely cut by Elmer Yang, Samantha McLoughlin, or my teammates on McYang Gang (Anika Ganesh, Tanya Wei, Pranav Gorty, David Xu, Andrew Park, and Yesh Rao - #Coast2Coast). Policy positions read between 2021-2023 were likely cut by Elmer Yang or my teammates on SSADrills (Ava Manaker and Shrey Raju).
 
-### openCastlist Pages
+### openCaselist Pages
 
 * [HSLD openCaselist 2023 - 2024](https://opencaselist.com/hsld23/Prospect/SoTi)
 * [HSLD openCaselist 2022 - 2023](https://opencaselist.com/hsld22/Prospect/SoTi)
