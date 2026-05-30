@@ -8,7 +8,7 @@ I am an undergraduate at the [University of Pennsylvania](https://www.upenn.edu)
 
 In a former life, I was quite involved in speech and debate. If you are a debater looking for resources, feel free to check out my past projects, [CircuitDebater](https://ld.circuitdebater.org/) and [Women in Debate](https://www.windebate.org/). I am currently a coach for the [Harker School](https://www.harker.org/), and, outside of debate, I teach in West Philadelphia schools through the [Netter Center](https://web.sas.upenn.edu/penn-cssp/) program.
 
-In my spare time, you can find me reading Kant, playing with my cats, or tinkering with my robot dog. I'm also a big fan of curated [Twitter cat photos](https://x.com/unicouniuni3).
+In my spare time, you can find me making Kant puns, talking to my cats, or tinkering with my robot dog. I'm also a big fan of curated [Twitter cat photos](https://x.com/unicouniuni3).
 
 <!--
 ## Research Interests
