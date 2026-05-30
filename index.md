@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a second-year undergraduate at the [University of Pennsylvania](https://www.upenn.edu) studying cognitive science and mathematics. Research-wise, my interests lie in decision-making and behavioral forecasting. I am currently a research assistant to [Philip Tetlock](https://www.sas.upenn.edu/tetlock/), where I am studying the applications of sentiment analysis to geopolitical predictions.
+I am an undergraduate at the [University of Pennsylvania](https://www.upenn.edu) studying cognitive science and mathematics. I am currently on leave to work as a Forward Deployed Software Engineer at [Palantir Technologies](palantir.com). In my spare time, you can find me reading Kant, playing with my cats, or tinkering with my robot dog. I'm also a big fan of curated [Twitter cat photos](https://x.com/unicouniuni3).
 
 In a former life, I was quite involved in speech and debate. If you are a debater looking for resources, feel free to check out my past projects, [CircuitDebater](https://ld.circuitdebater.org/) and [Women in Debate](https://www.windebate.org/). I am currently a coach for the [Harker School](https://www.harker.org/), and, outside of debate, I teach in West Philadelphia schools through the [Community School Student Partnerships](https://web.sas.upenn.edu/penn-cssp/) program.
 
